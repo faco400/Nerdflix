@@ -30,7 +30,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
-      ? 'https://localhost:8080/Categorias'
+      ? 'http://localhost:8080/Categorias'
       : 'https://viniciusnerdflix.herokuapp.com/Categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
