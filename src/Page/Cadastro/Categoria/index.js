@@ -27,7 +27,7 @@ function CadastroCategoria() {
       infoDosEventos.target.value,
     );
   }
-
+  // Olhar pagina de favoritos onde tem um link para a aula 4 e comparar essa parte
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/Categorias'
