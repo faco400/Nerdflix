@@ -29,9 +29,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    // eslint-disable-next-line no-console
-    console.log('Alow');
-    const URL_TOP = 'http://localhost:8080/Categorias';
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'https://localhost:8080/Categorias'
+      : 'https://viniciusnerdflix.herokuapp.com/Categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
