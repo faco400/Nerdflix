@@ -1,0 +1,16 @@
+{
+    "Categorias": [
+        {
+            "id": "1",
+            "nome": "Campanha 1",
+            "descricao": "Campanha Vox Machina",
+            "cor": "cbd1ff"
+        },
+        {
+            "id": "2",
+            "nome": "Campanha 2",
+            "descricao": "Campanha Mighty Nein",
+            "cor": "cbd1ff"
+        }
+    ]
+}

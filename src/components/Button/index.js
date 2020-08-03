@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-//const Button = styled(Link) e fazer o import la em cima caso queira usar o Link no botão
-const Button = styled.button ` 
+// const Button = styled(Link) e fazer o import la em cima caso queira usar o Link no botão
+const Button = styled.button` 
 color: var(--white);
 border: 1px solid var(--white);
 box-sizing: border-box;
@@ -21,4 +21,4 @@ opacity: .5;
 }
 `;
 
-export default Button
+export default Button;
