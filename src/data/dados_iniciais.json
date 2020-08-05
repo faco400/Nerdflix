@@ -1,5 +1,5 @@
 {
-  "categorias": [
+  "Categorias": [
     {
       "titulo": "Campanha 1",
       "link": "https://www.alura.com.br/formacao-front-end",
@@ -8,7 +8,7 @@
         "text": "Playlist",
         "url": "https://www.youtube.com/watch?v=i-p9lWIhcLQ&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i"
       },
-      "videos": [
+      "Videos": [
         {
           "titulo": "Abertura Campanha 2",
           "url": "https://www.youtube.com/watch?v=LhFETREAvhc&t=26s"

@@ -1,16 +1,130 @@
 {
-    "Categorias": [
-        {
-            "id": "1",
-            "nome": "Campanha 1",
-            "descricao": "Campanha Vox Machina",
-            "cor": "cbd1ff"
-        },
-        {
-            "id": "2",
-            "nome": "Campanha 2",
-            "descricao": "Campanha Mighty Nein",
-            "cor": "cbd1ff"
-        }
-    ]
+  "Categorias": [
+    {
+      "id": 1,
+      "titulo": "Campanha 1",
+      "descricao": "Campanha Vox Machina",
+      "cor": "cbd1ff",
+      "link_extra": {
+        "text": "Playlist 1",
+        "url": "https://www.youtube.com/watch?v=i-p9lWIhcLQ&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Campanha 2",
+      "descricao": "Campanha Mighty Nein",
+      "cor": "cbd1ff",
+      "link_extra": {
+        "text": "Playlist 2",
+        "url": "https://www.youtube.com/watch?v=byva0hOj8CU&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2"
+      }
+    }
+  ],
+  "Videos": [
+    {
+      "id": 1,
+      "CategoriaId": 2,
+      "titulo": "Abertura Campanha 2",
+      "url": "https://www.youtube.com/watch?v=LhFETREAvhc&t=26s"
+    },
+    {
+      "id": 2,
+      "CategoriaId": 1,
+      "titulo": "Chegada em kraghammer",
+      "url": "https://www.youtube.com/watch?v=i-p9lWIhcLQ&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i"
+    },
+    {
+      "id": 3,
+      "CategoriaId": 1,
+      "titulo": "Para as Minas Greyspine",
+      "url": "https://www.youtube.com/watch?v=JTie0S_5gjE&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=2"
+    },
+    {
+      "id": 4,
+      "CategoriaId": 1,
+      "titulo": "Companheiros de cama estranhos",
+      "url": "https://www.youtube.com/watch?v=kpkCcb--r90&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=3"
+    },
+    {
+      "id": 5,
+      "CategoriaId": 1,
+      "titulo": "Ataque no campo de guerra Duergar",
+      "url": "https://www.youtube.com/watch?v=kGxiZNbjwGI&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=4"
+    },
+    {
+      "id": 6,
+      "CategoriaId": 1,
+      "titulo": "O truque sobre queda",
+      "url": "https://www.youtube.com/watch?v=u6QpXDL7E8Y&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=5"
+    },
+    {
+      "id": 7,
+      "CategoriaId": 1,
+      "titulo": "Infiltrando Emberhold",
+      "url": "https://www.youtube.com/watch?v=cemCmD27Rnc&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=6"
+    },
+    {
+      "id": 8,
+      "CategoriaId": 1,
+      "titulo": "A sala do trono",
+      "url": "https://www.youtube.com/watch?v=XGs3bOX4XFQ&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=7"
+    },
+    {
+      "titulo": "Camapanha 2",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "playlist 2",
+        "url": "https://www.youtube.com/watch?v=byva0hOj8CU&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2"
+      }
+    },
+    {
+      "id": 9,
+      "CategoriaId": 2,
+      "titulo": "Inicios Curiosos",
+      "url": "https://www.youtube.com/watch?v=byva0hOj8CU&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2"
+    },
+    {
+      "id": 10,
+      "CategoriaId": 2,
+      "titulo": "Um show de Escrutínio",
+      "url": "https://www.youtube.com/watch?v=MPELLuQXVcE&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2&index=2"
+    },
+    {
+      "id": 11,
+      "CategoriaId": 2,
+      "titulo": "A perseguição Noturna",
+      "url": "https://www.youtube.com/watch?v=_Ig_s9j4MuU&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2&index=3"
+    },
+    {
+      "id": 12,
+      "CategoriaId": 2,
+      "titulo": "Peças desiguais",
+      "url": "https://www.youtube.com/watch?v=JtJTqLSzXaM&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2&index=4"
+    },
+    {
+      "id": 13,
+      "CategoriaId": 2,
+      "titulo": "A Estrada Aberta",
+      "url": "https://www.youtube.com/watch?v=m3vPWbJoBrQ&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2&index=5"
+    },
+    {
+      "titulo": "As Minas Ruivantes",
+      "CategoriaId": 2,
+      "url": "https://www.youtube.com/watch?v=5DHEj9nY-wo&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2&index=7&t=0s",
+      "id": 14
+    },
+    {
+      "titulo": "Vidro e Osso",
+      "CategoriaId": 1,
+      "url": "https://www.youtube.com/watch?v=A14MzQxxdwM&list=PL7atuZxmT954bCkC062rKwXTvJtcqFB8i&index=9&t=0s",
+      "id": 15
+    },
+    {
+      "titulo": "Pressa",
+      "CategoriaId": 2,
+      "url": "https://www.youtube.com/watch?v=JAyT10WP-cY&list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2&index=8&t=0s",
+      "id": 16
+    }
+  ]
 }
